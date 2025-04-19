@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.buton{
+   background-color: aquamarine;
+}
+.welcome{
+    height: 500px;
+    width: 220px;
+    border: 1px solid black;
+}
+
+.im1{
+    width: 285px;
+    height: 310px;
+    margin: 2px;
+    background-color:#EEEEEE;
+    padding: 80px;
+}
+
+.latest{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bt1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bt1 button{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+     background-color: #F16179;
+
+}
+.best{
+    
+    margin: 30px;
+    border-radius: 14px;
+    height: 812px;
+    background-color: #7FD7EB;
+}
+.savings h6{
+    
+    line-height:23px;
+    color: white;
+}
+
+.par{
+    font-size: 35px;
+    width: 100px;
+}
+
+.savings button{
+    
+    border:none;
+}
+
+.buy{
+    width: 158px;
+    margin-top: 30px;    
+    background-color: #109DBD;
+    color: white;
+    padding: 7px;
+    
+}
+
+.buy:hover{
+    background-color: #7FD7EB;
+    border: 1px solid  #109DBD;
+    color:  #109DBD;
+}
+
+.see{
+    width: 158px;
+    background-color: white;
+    padding: 7px;
+}
+
+.see:hover{
+    background-color:#7FD7EB;
+    border: 1px solid white;
+    color:  #109DBD;
+}
+
+.svim{
+    margin-top: 30px;
+    width: 200px;
+    height: 146px;
+}
+
+.shop{
+    margin-top: 0px;
+    margin: 40px;
+    
+}
+.why{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shop1{
+
+    height: 290px;
+    width: 230px;
+    background-color:#F9F8F7;   
+    
+
+}
+.im2{
+    padding: 60px;    
+}
+
+.gifts{
+    
+    margin: 30px;
+    border-radius: 14px;
+    height: 812px;
+    background-color:#6929A5;
+}
+.loved h6{
+    
+    line-height:23px;
+    color: white;
+}
+
+.para{
+    font-size: 35px;
+}
+
+.loved button{
+    
+    border:none;
+}
+
+.by{
+    width: 158px;
+    margin-top: 30px;    
+    background-color:white;
+    color: black;
+    padding: 7px;
+    
+}
+
+.by:hover{
+    background-color:#6929A5;
+    border: 1px solid white;
+    color:white;
+}
+
+.si{
+    width: 158px;
+    background-color:#9242DD;
+    padding: 7px;
+    color: white;
+}
+
+.si:hover{
+    background-color:#6929A5;
+    border: 1px solid rgb(237, 235, 235);
+    color:#9242DD;
+}
+
+.gfim{
+    margin-top: 5px;
+    width: 200px;
+    height: 146px;
+}
+
+
+.main2{
+    margin: 30px;
+    margin-top: 40px;
+    height: 930px;
+    background-color: #FFFFFF;
+    
+}
+
+.map iframe{
+
+    width: 260px;
+    height: 380px;
+}
+ .form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input{
+
+    margin-top: 0px;
+    padding: 10px;
+    width: 210px;
+    
+}
+
+.form button{
+
+    padding: 10px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: #DB4F66;
+} 
+
+.testimonial{
+    margin: 40px;
+    padding: 15px;
+    height: 500px;
+
+}
+.testimonial h3{
+    
+    font-weight: bold;
+}
+.testimonial h6{
+    color: rgb(215, 214, 214);
+}
+
+.testimonial p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    margin: 40px;
+    padding: 15px;
+    /* height: 500px; */
+    border: 1px solid black;
+    background-color: #2D2D2D;
+
+}
+
+.icon img{
+    width: 13px;
+    height: 21px;
+    
+}
+.ic1{
+    color: white;
+    
+}
+
+.icon{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+
+/* .fmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+} */
+
+.about{
+    margin-bottom: 30px;
+}
+.news{
+    margin-bottom: 30px;
+}
+.need{
+    margin-bottom: 30px;
+}
+
+.news button{
+    
+    border: none;
+    color: white;
+    background-color: #F89CAB;
+}
+.contact{
+    margin-bottom: 30px;
+}
+
+
+
+.design h6{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    
+}
+
+
+.ci{
+    background-color: #F89CAB;
+     padding: 20px;
+}
+
+.wlc{
+    font-size: 50px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+
+    .a1{
+        font-size: 20px;
+        color: black;
+        
+     }
+    .latest{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    .best{
+        margin: 20px;
+        height: 400px;
+    }
+    .par{
+        
+        width:320px;
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .savings{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .savings h6{
+    
+        line-height:20px;
+        color: white;
+        font-size: 15px;
+        width: 300px;
+        
+
+    }
+
+    .svim{
+    
+        margin-top: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .buy{
+        width: 120px;
+        padding: 5px;
+    }
+
+    .see{
+        padding: 5px;
+        width: 120px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        gap:0px;
+        justify-content: space-between;
+    }
+
+    .gifts{
+        margin: 20px;
+        height: 400px;
+    }
+    .para{
+        
+        width:320px;
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .loved{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .loved h6{
+    
+        line-height:20px;
+        color: white;
+        font-size: 15px;
+        width: 300px;
+        
+
+    }
+
+    .gfim{
+    
+        margin-top: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .by{
+        width: 120px;
+        padding: 5px;
+    }
+
+    .si{
+        padding: 5px;
+        width: 120px;
+    }
+
+    .main2{
+        display: flex;
+        align-items: center;
+        height: 550px;
+        justify-content: space-evenly;
+
+    }
+    .map iframe{
+
+        width: 290px;
+    }
+
+    .form{
+
+    }
+    /* .form input{
+        
+        width: 300px;
+    } */
+    /* .form input{
+
+        margin-top: 0px;
+        padding: 10px;
+        width: 210px;
+        
+    } */
+
+    .testimonial{
+        margin: 120px;
+        margin-top: 50px;
+        padding: 15px;
+        height: 300px;
+    
+    }
+
+    .fmain{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+
+        
+    }
+
+    .about h5{
+        width: 300px;
+        font-size: 15px;
+        margin-top: 19px;
+    }
+    .about h3{
+
+        font-size: 19px;
+    }
+
+    .news h3{
+        font-size: 19px;   
+    }
+
+    .mail{
+        width: 150px;
+
+    }
+
+    .need h5{
+        width: 300px;
+        font-size: 15px;
+        margin-top: 19px;
+    }
+    .need h3{
+
+        font-size: 19px;
+    }
+    .contact a{
+       
+        font-size: 15px;
+        margin-top: 19px;
+    }
+    .contact h3{
+
+        font-size: 19px;
+    }
+
+    .design h5{
+        font: 10px;
+    }
+   
+    .caritem{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ci{
+        padding: 60px;
+    }
+
+   
+    
+
+}
+@media(min-width:992px){
+    .parent{
+        margin: 23px 23px 0px 23px;
+    }
+
+    .list{
+        background-color: #F9ECE6;
+        padding: 10px;
+
+    }
+    .nav a{
+        padding: 10px;
+       
+    }
+    .nav a:hover{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+    .nav img{
+        padding: 5px;
+    }
+    .nav img:hover{
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+    .latest{
+        flex-wrap: wrap;
+        flex-direction: row;
+       
+    }
+    .im1{
+        margin: 5px;
+        width: 295px;
+        /* width: 30%; */
+    }
+    .best{
+        margin: 20px;
+        height: 410px;
+    }
+
+    .savings{
+        justify-content: space-around;
+    }
+    
+    .par{
+        
+        font-size: 36px;
+    }
+    .savings h6{
+        font-size: 19px;
+        width: 400px;
+        padding-bottom: 0px;
+    }
+
+    .buy{
+        width: 150px;
+       
+    }
+
+    .see{
+        width: 150px;
+       
+    }
+    .svim{  
+       width: 490px;
+        height: 300px;
+    }
+    .main{
+        
+        justify-content: space-evenly;
+    }
+    .gifts{
+        margin: 20px;
+        height: 410px;
+    }
+
+    .loved{
+        justify-content: space-around;
+    }
+    
+    .para{
+        
+        font-size: 36px;
+    }
+    .loved h6{
+        font-size: 19px;
+        width: 400px;
+        padding-bottom: 0px;
+    }
+
+    .by{
+        width: 150px;
+       
+    }
+
+    .si{
+        width: 150px;
+       
+    }
+    .gfim{
+    
+      
+        width: 450px;
+        height: 300px;
+    }
+
+    .map iframe{
+
+        width: 420px;
+    }
+
+    .form input{
+        width: 280px;
+    }
+    .testimonial{
+        margin: 200px;
+        margin-top: 50px;
+        height: 300px;
+    
+    }
+    .fmain{
+
+       margin: 20px;
+       align-items: center;
+       justify-content: center;
+       gap: 20px;
+
+        
+    }
+    .about h5{
+        width: 500px;
+        font-size: 25px;
+        margin-top: 19px;
+    }
+    .about h3{
+
+        font-size: 30px;
+    }
+
+    .news h3{
+        font-size: 30px; 
+        
+    }
+
+    .mail{
+        width: 200px;
+
+    }
+
+    .need h5{
+        width: 500px;
+        font-size: 25px;
+        margin-top: 19px;
+    }
+    .need h3{
+
+        font-size: 30px;
+    }
+    .contact a{
+       
+        font-size: 25px;
+        margin-top: 19px;
+    }
+    .contact h3{
+
+        font-size: 30px;
+    }
+
+    .design h5{
+        font: 10px;
+    }
+
+    .text p{
+        width: 550px;
+        line-height: 30px;
+        font-size: 20px;
+
+    }
+
+    .ci{
+        padding: 90px;
+    }
+   
+}
